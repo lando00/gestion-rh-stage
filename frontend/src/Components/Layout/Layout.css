@@ -1,0 +1,89 @@
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #4AAE88;
+    --secondary-color: #F1B047;
+    --info-color: #E6443A;
+    --badge-color: #F96172;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+  
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+    --tran-06: all 0.6s ease;
+    --tran-07: all 0.7s ease;
+    --tran-08: all 0.8s ease;
+  
+    /* ======= box shadow======= */
+    --box-shadow:
+  }
+  
+  /* ********************* */
+  .fixed-top {
+    background-color: var(--sidebar-color);
+    padding: 0px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    z-index: 99 !important;
+  }
+  
+  .image-profile {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .notification-icon {
+    padding-top: 3px;
+    color: var(--text-color);
+    font-size: 25px;
+    width:30px;
+    line-height: 50px;
+    background-color: transparent;
+  }
+  
+  .badge {
+    position: relative;
+    background-color: var(--info-color);
+    top: 0px;
+    right: 0px;
+    transform: translateY(-65%) translateX(-45%);
+  }
+
+  .user-name, .user-type {
+    font-size: small;
+    font-weight: normal;
+  }
+  
+  .nav-item-header{
+    color: #707070;
+    background: #FFF;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 0 10px;
+  }
+    
+  .nav-item-header:hover .notification-icon{
+    color: #FFF;
+  }
+
+  .nav-item-header:hover{
+    color: #FFF;
+    background: #f1b0477f;
+  }
+
+  .nav-item-header:active{
+    color: #FFF;
+    background: #8a91a4;
+  }
+
+  
+  .profil-link{
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+  }

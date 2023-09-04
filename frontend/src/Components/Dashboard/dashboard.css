@@ -1,0 +1,39 @@
+.clou{
+    background: rgba(255, 255, 255, .75);
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .3);
+    padding: 10px;
+}
+
+
+
+.card-statistique {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #F1B047;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    color: #707070;
+    margin: auto 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.clou-graph{
+    min-height: fit-content;
+    padding: 0 0 10px 0 !important;
+}
+
+.graph_dashboard {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 250px;
+    align-items: end;
+}
+
+.graph-title{
+    background: #82CA9D;
+    padding: 10px 0;
+    color: white;
+}

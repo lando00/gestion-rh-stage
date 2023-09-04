@@ -1,0 +1,231 @@
+:root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #4AAE88;
+    --secondary-color: #F1B047;
+    --info-color: #E6443A;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+    --tran-06: all 0.6s ease;
+    --tran-07: all 0.7s ease;
+    --tran-08: all 0.8s ease;
+
+}
+
+.ul-autorisation {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #707070;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.ul-autorisation>li {
+    display: inline-flexbox;
+}
+
+.lien-autorisation, p {
+text-decoration: none;
+font-size: 20px;
+font-weight: bolder;
+margin: auto 10px;
+color: #707070;
+transition: 0.2s;
+}
+
+.lien-autorisation:hover, .lien-autorisation.active {
+    color: #4AAE88;
+    text-decoration: underline;
+}
+
+.btn-add{
+    display: flex;
+    line-height: normal;
+    transition: all .5s ease;
+    font-size: 40px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background: #4AAE88;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.btn-add.active  {
+    opacity: 0.9;
+    display: flex;
+    line-height: normal;
+    transition: all .5s ease;
+    font-size: 40px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background: #4AAE88;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateX(0);
+}
+
+.btn-add.active:active {
+    transform: scale(0.9) rotate(180deg);
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.rec-auto {
+    width: 100%;
+    border: 0.5px solid #707070;
+    background-color: transparent;
+    outline: none;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-input-rec{
+    width: 98%;
+    height: 32px;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    background: white;
+  }
+
+.text-input{
+width: 95%;
+height: 32px;
+padding-left: 10px;
+font-size: 0.8rem;
+color: rgba(0, 0, 0, 0.9);
+border: 1px solid #ccc;
+border-radius: 4px;
+display: block;
+background: white;
+}
+
+  
+.label-input{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.dearch-icon {
+    font-size: 30px;
+    color: #ccc;
+}
+
+.validation-btn {
+    min-width: 150px;
+    max-width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.validation-btn:active {
+    transform: scale(0.9);
+}
+
+.btn-vert {
+    color: #4AAE88;
+    border-color: #4AAE88;
+}
+
+.btn-vert:hover {
+    background-color: #4AAE88;
+    color: #FFF;
+    border: #fff;
+}
+
+.btn-rouge{
+    color: #E6443A;
+    border-color: #E6443A;
+}
+
+.btn-rouge:hover {
+    background-color: #E6443A;
+    color: #fff;
+    border: #fff;
+}
+
+.card-statistique.active {
+    background-color: #4AAE88;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.);
+    color: white;
+    border: none;
+}
+
+.card-statistique {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    color: #707070;
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.card-statistique h6 {
+    margin: 0 1px;
+    font-size: small;
+    font-weight:600;
+}
+
+.tableau-container {
+    border-radius: 10px;
+}
+
+.clou{
+    background: rgba(255, 255, 255, .75);
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .3);
+    padding: 10px;
+}
+
+.accept-reject{
+    border: none;
+    width: 110px;
+    height: 36px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    color: white;
+    opacity: .85;
+    font-weight: bold;
+    padding: 2px;
+    transition: all .3s ease;
+}
+
+.accept-reject:hover{
+    transform: scale(1.1);
+}
+
+.accept-reject:active{
+    transform: scale(.9);
+}
+
+.accept-reject.red{
+   background: #E6443A;
+   border: 1px solid #ec2f25;
+}
+
+.accept-reject.green{
+   background: #4AAE88;
+   border:  1px solid #3a9270;
+}

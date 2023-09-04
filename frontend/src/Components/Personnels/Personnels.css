@@ -1,0 +1,25 @@
+.search{
+	display: none;
+	width: 0 !important;
+	/* transition: 0.4s; */
+}
+.search:focus{
+	width: 220px!important;
+}
+
+.h6{
+	font-size: 0.9rem!important;
+}
+
+.active-icon{
+	background-color: #198754!important;
+	color : #fff!important;
+}
+
+.active-search{
+	background-color: #198754!important;
+	color : #fff!important;
+}
+
+
+

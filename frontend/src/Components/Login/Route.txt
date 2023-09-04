@@ -1,0 +1,6 @@
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/forgotpass" element={<Verification />} />
+      <Route path="/forgotpass/newpass" element={<NewPassword />} />
+    </Routes>

@@ -1,0 +1,30 @@
+.photo-personnel img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.custom-table-avancement tr{
+    background-color: #fff;
+    /* box-shadow: 0 0 3px #e5e5e5; */
+    border: 1px solid #dee2e6;
+}
+
+.custom-table-avancement thead tr th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #dee2e6;
+}
+
+.custom-table-avancement {
+    border: 1px solid #dee2e6;
+}
+
+.custom-table-avancement tbody tr th, .custom-table-avancement tbody tr td{
+   padding-top: 15px;
+   padding-bottom: 15px;
+   vertical-align: middle;
+   border: 1px solid #dee2e6;
+  
+}
